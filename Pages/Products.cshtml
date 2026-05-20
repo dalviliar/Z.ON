@@ -1,0 +1,170 @@
+@page
+@model ProductsModel
+@{
+    ViewData["Title"] = "Продукты";
+}
+
+<section class="fc-products-hero">
+    <div class="container text-center" data-aos="fade-up">
+        <span class="fc-section-badge mb-4"><i class="bi bi-grid-fill me-2"></i>Продукты</span>
+        <h1 class="fc-section-title mt-3">Усильте компанию с помощью<br><span class="fc-gradient-text">масштабируемых</span> инструментов</h1>
+        <p class="fc-section-sub mt-3 mx-auto">Получите доступ к мощным инструментам, необходимым для управления, развития и оптимизации вашего бизнеса.</p>
+    </div>
+</section>
+
+<section class="py-6" id="pro">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5" data-aos="fade-right">
+                <div class="fc-solution-icon mb-4" style="background:linear-gradient(135deg,#3B82F6,#60a5fa)">
+                    <i class="bi bi-box-seam-fill"></i>
+                </div>
+                <h2 class="fc-section-title">FinCore Pro</h2>
+                <p class="text-muted mt-3 mb-4" style="line-height:1.8">Профессиональная учётная система, которая автоматизирует бухгалтерию и налоги для МСБ, создаёт документы и отчётность по НСФО и НК РК, исключая ручные ошибки.</p>
+                <div class="fc-feature-list mb-4">
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Реализация: счета, ЭАВР/АВР, накладные, ЭСФ и возвраты</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Отчётность и интеграция с ИС ЭСФ, eSalyq и enbek.kz</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Покупки и склад: учёт номенклатуры, ОС и НМА</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Банк и касса: платёжные поручения, кассовые ордера</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Зарплата и кадры: приём, увольнение, расчёт и налоги</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Контрагенты: акты сверок, контроль задолженностей</div>
+                </div>
+                <a href="/Contacts" class="btn fc-btn-cta px-4 py-3">Попробовать бесплатно <i class="bi bi-arrow-right ms-2"></i></a>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+                <div class="fc-product-screen">
+                    <div class="fc-screen-header">
+                        <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                        <span class="text-muted small ms-3">FinCore Pro — Dashboard</span>
+                    </div>
+                    <div class="fc-screen-body p-4">
+                        <div class="row g-3 mb-3">
+                            <div class="col-4"><div class="fc-mini-stat" style="border-left:3px solid #3B82F6"><div class="text-muted" style="font-size:0.7rem">Выручка</div><div class="fw-bold" style="font-size:0.9rem">3 200 000 ₸</div><div style="font-size:0.7rem;color:#10b981">↑ 22%</div></div></div>
+                            <div class="col-4"><div class="fc-mini-stat" style="border-left:3px solid #10B981"><div class="text-muted" style="font-size:0.7rem">Налоги</div><div class="fw-bold" style="font-size:0.9rem">320 000 ₸</div><div style="font-size:0.7rem;color:#10b981">✓ Оплачено</div></div></div>
+                            <div class="col-4"><div class="fc-mini-stat" style="border-left:3px solid #F59E0B"><div class="text-muted" style="font-size:0.7rem">Расходы</div><div class="fw-bold" style="font-size:0.9rem">980 000 ₸</div><div style="font-size:0.7rem;color:#F59E0B">↓ 5%</div></div></div>
+                        </div>
+                        <div class="fc-screen-row-list">
+                            <div class="fc-screen-row"><span class="text-muted small" style="flex:1">ЭСФ №1042</span><span class="small" style="flex:1.5">ТОО Альфа</span><span class="fw-semibold small" style="flex:1.2">245 000 ₸</span><span class="fc-status-badge small">Отправлен</span></div>
+                            <div class="fc-screen-row"><span class="text-muted small" style="flex:1">АВР №88</span><span class="small" style="flex:1.5">ИП Сейтов</span><span class="fw-semibold small" style="flex:1.2">82 000 ₸</span><span class="fc-status-badge small">Подписан</span></div>
+                            <div class="fc-screen-row"><span class="text-muted small" style="flex:1">Накладная №34</span><span class="small" style="flex:1.5">Magnum</span><span class="fw-semibold small" style="flex:1.2">1 200 000 ₸</span><span class="fc-status-badge small" style="background:rgba(245,158,11,0.1);color:#F59E0B">В работе</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6" style="background:#f8faff" id="business">
+    <div class="container">
+        <div class="row align-items-center g-5 flex-lg-row-reverse">
+            <div class="col-lg-5" data-aos="fade-left">
+                <div class="fc-solution-icon mb-4" style="background:linear-gradient(135deg,#10B981,#34d399)">
+                    <i class="bi bi-buildings-fill"></i>
+                </div>
+                <h2 class="fc-section-title">FinCore Business</h2>
+                <p class="text-muted mt-3 mb-4" style="line-height:1.8">Автоматизация для компаний и платформ. Управляйте несколькими организациями в одном интерфейсе с полной аналитикой.</p>
+                <div class="fc-feature-list mb-4">
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Мультиорганизационный учёт без ограничений</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Ролевая модель доступа для команды</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Сводная аналитика по всем компаниям</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Открытый API для интеграций</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автоматизация расчётов с подрядчиками</div>
+                </div>
+                <a href="/Contacts" class="btn fc-btn-cta px-4 py-3">Запросить демо <i class="bi bi-arrow-right ms-2"></i></a>
+            </div>
+            <div class="col-lg-7" data-aos="fade-right">
+                <div class="fc-product-screen">
+                    <div class="fc-screen-header">
+                        <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                        <span class="text-muted small ms-3">FinCore Business — Компании</span>
+                    </div>
+                    <div class="fc-screen-body p-4">
+                        <div class="fc-screen-row-list">
+                            <div class="fc-screen-row"><span class="fw-semibold small" style="flex:2">ТОО «Альфа Трейд»</span><span class="text-muted small" style="flex:1.2">Алматы</span><span class="fc-status-badge small" style="flex:0.8">Активна</span><span class="small" style="flex:0.6;color:#10b981">↑ 12%</span></div>
+                            <div class="fc-screen-row"><span class="fw-semibold small" style="flex:2">ТОО «Бета Строй»</span><span class="text-muted small" style="flex:1.2">Астана</span><span class="fc-status-badge small" style="flex:0.8">Активна</span><span class="small" style="flex:0.6;color:#10b981">↑ 8%</span></div>
+                            <div class="fc-screen-row"><span class="fw-semibold small" style="flex:2">ИП Сейтов</span><span class="text-muted small" style="flex:1.2">Шымкент</span><span class="fc-status-badge small" style="flex:0.8">Активна</span><span class="small" style="flex:0.6;color:#10b981">↑ 15%</span></div>
+                            <div class="fc-screen-row"><span class="fw-semibold small" style="flex:2">ТОО «Гамма»</span><span class="text-muted small" style="flex:1.2">Алматы</span><span class="fc-status-badge small" style="flex:0.8;background:rgba(239,68,68,0.1);color:#ef4444">Пауза</span><span class="small" style="flex:0.6;color:#94a3b8">—</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6" id="edo">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-5" data-aos="fade-right">
+                <div class="fc-solution-icon mb-4" style="background:linear-gradient(135deg,#F59E0B,#fbbf24)">
+                    <i class="bi bi-file-earmark-text-fill"></i>
+                </div>
+                <h2 class="fc-section-title">FinCore ЭДО</h2>
+                <p class="text-muted mt-3 mb-4" style="line-height:1.8">Электронный документооборот. Отправляйте и принимайте ЭСФ, ЭАВР, накладные напрямую через ИС ЭСФ без ручных загрузок.</p>
+                <div class="fc-feature-list mb-4">
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Интеграция с ИС ЭСФ и кабинетом налогоплательщика</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автоматическое подписание ЭЦП</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Уведомления о статусах в реальном времени</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Архив всех документов онлайн</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автопроверка реквизитов контрагентов</div>
+                </div>
+                <a href="/Contacts" class="btn fc-btn-cta px-4 py-3">Начать с ЭДО <i class="bi bi-arrow-right ms-2"></i></a>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+                <div class="fc-product-screen">
+                    <div class="fc-screen-header">
+                        <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                        <span class="text-muted small ms-3">FinCore ЭДО — Документы</span>
+                    </div>
+                    <div class="fc-screen-body p-4">
+                        <div class="d-flex flex-column gap-2">
+                            <div class="d-flex align-items-center gap-3 p-2 rounded-2" style="background:white;border:1px solid #e2e8f0"><span class="fw-bold" style="color:#3b82f6;min-width:70px">ЭСФ</span><span class="text-muted small flex-grow-1">Исходящий · ТОО Альфа</span><span class="badge rounded-pill" style="background:rgba(16,185,129,0.1);color:#10b981">Доставлен</span></div>
+                            <div class="d-flex align-items-center gap-3 p-2 rounded-2" style="background:white;border:1px solid #e2e8f0"><span class="fw-bold" style="color:#10b981;min-width:70px">ЭАВР</span><span class="text-muted small flex-grow-1">Входящий · ИП Нуров</span><span class="badge rounded-pill" style="background:rgba(59,130,246,0.1);color:#3b82f6">Подписан</span></div>
+                            <div class="d-flex align-items-center gap-3 p-2 rounded-2" style="background:white;border:1px solid #e2e8f0"><span class="fw-bold" style="color:#F59E0B;min-width:70px">Накладная</span><span class="text-muted small flex-grow-1">Исходящий · Kaspi</span><span class="badge rounded-pill" style="background:rgba(245,158,11,0.1);color:#F59E0B">Ожидает</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6" style="background:linear-gradient(160deg,#f5f3ff,#eff6ff)" id="ai">
+    <div class="container">
+        <div class="row align-items-center g-5 flex-lg-row-reverse">
+            <div class="col-lg-5" data-aos="fade-left">
+                <div class="fc-solution-icon mb-4" style="background:linear-gradient(135deg,#8B5CF6,#a78bfa)">
+                    <i class="bi bi-stars"></i>
+                </div>
+                <div class="d-flex align-items-center gap-2 mb-2">
+                    <h2 class="fc-section-title mb-0">FinCore AI</h2>
+                    <span class="badge text-bg-primary">New</span>
+                </div>
+                <p class="text-muted mt-3 mb-4" style="line-height:1.8">Первый ИИ-бухгалтер в Казахстане. Задавайте вопросы на русском или казахском — ИИ ответит, найдёт ошибки и подготовит отчёт за секунды.</p>
+                <div class="fc-feature-list mb-4">
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автопроверка первичных документов на ошибки</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Налоговый советник 24/7 на русском и казахском</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автозаполнение деклараций формы 910, 100, 700</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Умный поиск по документам и транзакциям</div>
+                    <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Напоминания о налоговых сроках</div>
+                </div>
+                <a href="/Contacts" class="btn fc-btn-cta px-4 py-3">Попробовать ИИ бесплатно <i class="bi bi-stars ms-2"></i></a>
+            </div>
+            <div class="col-lg-7" data-aos="fade-right">
+                <div class="fc-product-screen fc-ai-screen">
+                    <div class="fc-screen-header">
+                        <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                        <span class="text-muted small ms-3">FinCore AI — Ассистент</span>
+                    </div>
+                    <div class="fc-screen-body p-4">
+                        <div class="fc-chat-msg fc-chat-user">Когда нужно сдавать форму 910?</div>
+                        <div class="fc-chat-msg fc-chat-ai"><i class="bi bi-stars text-primary me-2"></i>Форма 910 сдаётся <strong>два раза в год</strong>: за 1-е полугодие — до 15 августа, за 2-е — до 15 февраля следующего года.</div>
+                        <div class="fc-chat-msg fc-chat-user">Найди ошибки в моих ЭСФ за май</div>
+                        <div class="fc-chat-msg fc-chat-ai"><i class="bi bi-search text-primary me-2"></i>Проверил 47 ЭСФ. Нашёл <strong>2 ошибки</strong>: ЭСФ №1039 — неверный ИИН контрагента; ЭСФ №1041 — не соответствует код ТНВЭД. Исправить автоматически?</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

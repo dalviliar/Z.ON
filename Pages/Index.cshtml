@@ -1,0 +1,666 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = L["Hero.Title1"].Value;
+}
+
+<!-- ===== HERO ===== -->
+<section class="fc-hero">
+    <div class="fc-hero-bg">
+        <div class="fc-orb fc-orb-1"></div>
+        <div class="fc-orb fc-orb-2"></div>
+        <div class="fc-orb fc-orb-3"></div>
+    </div>
+    <div class="container position-relative">
+        <div class="row align-items-center min-vh-100 py-5">
+            <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right" data-aos-duration="800">
+                <div class="fc-badge mb-4">
+                    <i class="bi bi-stars me-2 text-primary"></i>
+                    <span>@L["Hero.Badge"]</span>
+                </div>
+                <h1 class="fc-hero-title">
+                    @L["Hero.Title1"]<br>
+                    <span class="fc-gradient-text">@L["Hero.Title2"]</span><br>
+                    @L["Hero.Title3"]
+                </h1>
+                <p class="fc-hero-sub mt-4 mb-5">@L["Hero.Sub"]</p>
+                <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                    <a href="/Contacts" class="btn fc-btn-hero-primary">
+                        @L["Hero.Start"] <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                    <a href="#products" class="btn fc-btn-hero-ghost">
+                        <i class="bi bi-play-circle me-2"></i>@L["Hero.Demo"]
+                    </a>
+                </div>
+                <div class="fc-hero-trust mt-5 d-flex align-items-center gap-3 justify-content-center justify-content-lg-start">
+                    <div class="fc-avatars">
+                        <span class="fc-av" style="background:#3B82F6">А</span>
+                        <span class="fc-av" style="background:#10B981">Б</span>
+                        <span class="fc-av" style="background:#F59E0B">К</span>
+                        <span class="fc-av" style="background:#8B5CF6">М</span>
+                    </div>
+                    <div class="text-start">
+                        <div class="fc-stars"><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></div>
+                        <small class="text-muted">@Html.Raw(L["Hero.Trust"])</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                <div class="fc-dashboard-mockup">
+                    <div class="fc-mockup-card fc-mockup-main">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <span class="fw-semibold text-dark">Главная</span>
+                            <div class="d-flex gap-2">
+                                <div style="width:8px;height:8px;border-radius:50%;background:#ef4444"></div>
+                                <div style="width:8px;height:8px;border-radius:50%;background:#f59e0b"></div>
+                                <div style="width:8px;height:8px;border-radius:50%;background:#10b981"></div>
+                            </div>
+                        </div>
+                        <div class="row g-2 mb-3">
+                            <div class="col-4">
+                                <div class="fc-stat-mini" style="background:rgba(59,130,246,0.08)">
+                                    <div class="text-muted" style="font-size:0.65rem">Выручка</div>
+                                    <div class="fw-bold text-dark" style="font-size:0.9rem">2 450 000 ₸</div>
+                                    <div style="color:#10b981;font-size:0.65rem"><i class="bi bi-arrow-up"></i> 18%</div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="fc-stat-mini" style="background:rgba(16,185,129,0.08)">
+                                    <div class="text-muted" style="font-size:0.65rem">Налоги</div>
+                                    <div class="fw-bold text-dark" style="font-size:0.9rem">245 000 ₸</div>
+                                    <div style="color:#10b981;font-size:0.65rem"><i class="bi bi-check-circle-fill"></i> Оплачено</div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="fc-stat-mini" style="background:rgba(139,92,246,0.08)">
+                                    <div class="text-muted" style="font-size:0.65rem">Клиентов</div>
+                                    <div class="fw-bold text-dark" style="font-size:0.9rem">47</div>
+                                    <div style="color:#10b981;font-size:0.65rem"><i class="bi bi-arrow-up"></i> 5 новых</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fc-chart-mock">
+                            <div style="display:flex;align-items:flex-end;gap:6px;height:60px">
+                                @foreach (var h in new[]{30,45,35,60,50,75,55,80,65,90,70,95})
+                                {
+                                    <div style="flex:1;background:linear-gradient(180deg,#3B82F6,#60a5fa);border-radius:3px 3px 0 0;height:@(h)%"></div>
+                                }
+                            </div>
+                            <div class="d-flex justify-content-between mt-1">
+                                @foreach (var m in new[]{"Янв","Фев","Мар","Апр","Май","Июн","Июл","Авг","Сен","Окт","Ноя","Дек"})
+                                {
+                                    <span style="font-size:0.55rem;color:#9ca3af">@m</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Float cards -->
+                    <div class="fc-float-card fc-float-1" data-aos="zoom-in" data-aos-delay="600">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        <span style="font-size:0.8rem">ЭСФ отправлен</span>
+                    </div>
+                    <div class="fc-float-card fc-float-2" data-aos="zoom-in" data-aos-delay="800">
+                        <i class="bi bi-stars text-warning me-2"></i>
+                        <span style="font-size:0.8rem">ИИ проверил отчёт</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scroll hint -->
+    <div class="fc-scroll-hint">
+        <i class="bi bi-chevron-double-down"></i>
+    </div>
+</section>
+
+<!-- ===== CLIENTS STRIP ===== -->
+<section class="fc-clients py-4">
+    <div class="container">
+        <p class="text-center text-muted small mb-4">@L["Clients.Title"]</p>
+        <div class="fc-clients-strip">
+            <div class="fc-clients-inner">
+                @foreach (var c in new[]{"Magnum","Kaspi","Yandex Go","Halyk Bank","BCC.kz","Astana Hub","Jusan","Freedom Pay","Kolesa","1М-ный клиент"})
+                {
+                    <div class="fc-client-logo">@c</div>
+                }
+                @foreach (var c in new[]{"Magnum","Kaspi","Yandex Go","Halyk Bank","BCC.kz","Astana Hub","Jusan","Freedom Pay","Kolesa","1М-ный клиент"})
+                {
+                    <div class="fc-client-logo">@c</div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SOLUTIONS ===== -->
+<section class="fc-section py-6" id="solutions">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="fc-section-badge"><i class="bi bi-lightning-fill me-2"></i>@L["Solutions.Badge"]</span>
+            <h2 class="fc-section-title mt-3">@L["Solutions.Title"]</h2>
+            <p class="fc-section-sub">@L["Solutions.Sub"]</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="fc-solution-card">
+                    <div class="fc-solution-icon" style="background:linear-gradient(135deg,#3B82F6,#60a5fa)">
+                        <i class="bi bi-person-workspace"></i>
+                    </div>
+                    <h5 class="fw-bold mt-4 mb-2">@L["Sol.1.Title"]</h5>
+                    <p class="text-muted small">@L["Sol.1.Desc"]</p>
+                    <a href="#" class="fc-card-link mt-3 d-inline-flex align-items-center gap-1">@L["Solutions.More"] <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="fc-solution-card">
+                    <div class="fc-solution-icon" style="background:linear-gradient(135deg,#10B981,#34d399)">
+                        <i class="bi bi-building"></i>
+                    </div>
+                    <h5 class="fw-bold mt-4 mb-2">@L["Sol.2.Title"]</h5>
+                    <p class="text-muted small">@L["Sol.2.Desc"]</p>
+                    <a href="#" class="fc-card-link mt-3 d-inline-flex align-items-center gap-1">@L["Solutions.More"] <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="fc-solution-card">
+                    <div class="fc-solution-icon" style="background:linear-gradient(135deg,#8B5CF6,#a78bfa)">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <h5 class="fw-bold mt-4 mb-2">@L["Sol.3.Title"]</h5>
+                    <p class="text-muted small">@L["Sol.3.Desc"]</p>
+                    <a href="#" class="fc-card-link mt-3 d-inline-flex align-items-center gap-1">@L["Solutions.More"] <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="fc-solution-card">
+                    <div class="fc-solution-icon" style="background:linear-gradient(135deg,#F59E0B,#fbbf24)">
+                        <i class="bi bi-shop-window"></i>
+                    </div>
+                    <h5 class="fw-bold mt-4 mb-2">@L["Sol.4.Title"]</h5>
+                    <p class="text-muted small">@L["Sol.4.Desc"]</p>
+                    <a href="#" class="fc-card-link mt-3 d-inline-flex align-items-center gap-1">@L["Solutions.More"] <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="fc-solution-card">
+                    <div class="fc-solution-icon" style="background:linear-gradient(135deg,#EF4444,#f87171)">
+                        <i class="bi bi-cart-check-fill"></i>
+                    </div>
+                    <h5 class="fw-bold mt-4 mb-2">@L["Sol.5.Title"]</h5>
+                    <p class="text-muted small">@L["Sol.5.Desc"]</p>
+                    <a href="#" class="fc-card-link mt-3 d-inline-flex align-items-center gap-1">@L["Solutions.More"] <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="fc-solution-card">
+                    <div class="fc-solution-icon" style="background:linear-gradient(135deg,#06B6D4,#22d3ee)">
+                        <i class="bi bi-bank2"></i>
+                    </div>
+                    <h5 class="fw-bold mt-4 mb-2">@L["Sol.6.Title"]</h5>
+                    <p class="text-muted small">@L["Sol.6.Desc"]</p>
+                    <a href="#" class="fc-card-link mt-3 d-inline-flex align-items-center gap-1">@L["Solutions.More"] <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PRODUCTS ===== -->
+<section class="fc-section fc-products-section py-6" id="products">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="fc-section-badge"><i class="bi bi-grid-fill me-2"></i>Продукты</span>
+            <h2 class="fc-section-title mt-3">Усильте компанию с помощью<br><span class="fc-gradient-text">масштабируемых</span> инструментов</h2>
+        </div>
+
+        <ul class="nav fc-product-tabs justify-content-center mb-5" id="productTabs">
+            <li class="nav-item">
+                <button class="fc-tab active" data-tab="pro">
+                    <i class="bi bi-box-seam me-2"></i>FinCore Pro
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="fc-tab" data-tab="business">
+                    <i class="bi bi-buildings me-2"></i>Business
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="fc-tab" data-tab="edo">
+                    <i class="bi bi-file-text me-2"></i>ЭДО
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="fc-tab" data-tab="ai">
+                    <i class="bi bi-stars me-2"></i>FinCore AI
+                </button>
+            </li>
+        </ul>
+
+        <div id="tabPro" class="fc-tab-pane active">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <h3 class="fw-bold mb-3">FinCore Pro — профессиональная учётная система</h3>
+                    <p class="text-muted mb-4">Автоматизирует бухгалтерию и налоги для МСБ, создаёт документы и отчётность по НСФО и НК РК, исключая ручные ошибки.</p>
+                    <div class="fc-feature-list">
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Реализация: счета, ЭАВР/АВР, накладные, ЭСФ и возвраты</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Отчётность и интеграция с ИС ЭСФ, eSalyq и enbek.kz</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Покупки и склад: учёт номенклатуры, ОС и НМА</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Банк и касса: платёжные поручения, кассовые ордера</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Зарплата и кадры: приём, увольнение, расчёт и налоги</div>
+                    </div>
+                    <a href="/Products" class="btn fc-btn-cta mt-4">Подробнее <i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="fc-product-screen">
+                        <div class="fc-screen-header">
+                            <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                            <span class="text-muted small ms-3">FinCore Pro — Главная</span>
+                        </div>
+                        <div class="fc-screen-body p-4">
+                            <div class="row g-3 mb-3">
+                                @foreach (var item in new[]{("Выручка","3 200 000 ₸","↑ 22%","#3B82F6"),("Налоги","320 000 ₸","↑ 11%","#10B981"),("Расходы","980 000 ₸","↓ 5%","#F59E0B")})
+                                {
+                                    <div class="col-4">
+                                        <div class="fc-mini-stat" style="border-left:3px solid @item.Item4">
+                                            <div class="text-muted" style="font-size:0.7rem">@item.Item1</div>
+                                            <div class="fw-bold" style="font-size:0.85rem">@item.Item2</div>
+                                            <div style="font-size:0.7rem;color:@item.Item4">@item.Item3</div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div class="fc-screen-row-list">
+                                @foreach (var r in new[]{("ЭСФ №1042","ТОО Альфа","245 000 ₸","Отправлен"),("АВР №88","ИП Сейтов","82 000 ₸","Подписан"),("Накладная №34","Магнум","1 200 000 ₸","В работе")})
+                                {
+                                    <div class="fc-screen-row">
+                                        <span class="text-muted small" style="flex:1">@r.Item1</span>
+                                        <span class="small" style="flex:1.5">@r.Item2</span>
+                                        <span class="fw-semibold small" style="flex:1.2">@r.Item3</span>
+                                        <span class="fc-status-badge small">@r.Item4</span>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tabBusiness" class="fc-tab-pane" style="display:none">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <h3 class="fw-bold mb-3">FinCore Business — автоматизация для компаний</h3>
+                    <p class="text-muted mb-4">Управляйте несколькими организациями в одном интерфейсе. Идеально для аутсорсинга и холдингов.</p>
+                    <div class="fc-feature-list">
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Мультиорганизационный учёт</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Ролевая модель доступа</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Сводная аналитика по всем компаниям</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Открытый API для интеграций</div>
+                    </div>
+                    <a href="/Products#business" class="btn fc-btn-cta mt-4">Подробнее <i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="fc-product-screen">
+                        <div class="fc-screen-header">
+                            <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                            <span class="text-muted small ms-3">FinCore Business — Компании</span>
+                        </div>
+                        <div class="fc-screen-body p-4">
+                            <div class="fc-screen-row-list">
+                                @foreach (var r in new[]{("ТОО «Альфа»","Алматы","Активна","↑ 12%"),("ТОО «Бета»","Астана","Активна","↑ 8%"),("ИП Сейтов","Шымкент","Активна","↑ 15%"),("ТОО «Гамма»","Алматы","Приостановлена","—")})
+                                {
+                                    <div class="fc-screen-row">
+                                        <span class="fw-semibold small" style="flex:2">@r.Item1</span>
+                                        <span class="text-muted small" style="flex:1.2">@r.Item2</span>
+                                        <span class="fc-status-badge small" style="flex:1">@r.Item3</span>
+                                        <span class="small" style="flex:0.8;color:#10b981">@r.Item4</span>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tabEdo" class="fc-tab-pane" style="display:none">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <h3 class="fw-bold mb-3">FinCore ЭДО — электронный документооборот</h3>
+                    <p class="text-muted mb-4">Отправляйте и принимайте ЭСФ, ЭАВР, накладные напрямую через ИС ЭСФ. Никаких ручных загрузок.</p>
+                    <div class="fc-feature-list">
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Интеграция с ИС ЭСФ и КПН</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автоматическое подписание ЭЦП</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Уведомления о статусах в реальном времени</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Архив всех документов онлайн</div>
+                    </div>
+                    <a href="/Products#edo" class="btn fc-btn-cta mt-4">Подробнее <i class="bi bi-arrow-right ms-2"></i></a>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="fc-product-screen">
+                        <div class="fc-screen-header">
+                            <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                            <span class="text-muted small ms-3">FinCore ЭДО — Документы</span>
+                        </div>
+                        <div class="fc-screen-body p-4 d-flex flex-column gap-2">
+                            @foreach (var d in new[]{("ЭСФ","Исходящий","ТОО Альфа","Доставлен","#10b981"),("ЭАВР","Входящий","ИП Нуров","Подписан","#3b82f6"),("Накладная","Исходящий","Kaspi","Ожидает","#f59e0b")})
+                            {
+                                <div class="fc-edo-row d-flex align-items-center gap-3 p-2 rounded-2" style="background:#f8faff">
+                                    <span class="fw-bold" style="color:@d.Item5;min-width:50px">@d.Item1</span>
+                                    <span class="text-muted small" style="flex:1">@d.Item2 · @d.Item3</span>
+                                    <span class="badge rounded-pill" style="background:@d.Item5+'22';color:@d.Item5">@d.Item4</span>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tabAi" class="fc-tab-pane" style="display:none">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <h3 class="fw-bold mb-3">FinCore AI — первый ИИ-бухгалтер в Казахстане</h3>
+                    <p class="text-muted mb-4">Задавайте вопросы на русском или казахском — ИИ ответит, найдёт ошибки и подготовит отчёт за секунды.</p>
+                    <div class="fc-feature-list">
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автопроверка первичных документов</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Налоговый советник 24/7</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Автозаполнение деклараций</div>
+                        <div class="fc-feature-item"><i class="bi bi-check-circle-fill text-success"></i> Умный поиск по документам</div>
+                    </div>
+                    <a href="/Products#ai" class="btn fc-btn-cta mt-4">Попробовать AI <i class="bi bi-stars ms-2"></i></a>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="fc-product-screen fc-ai-screen">
+                        <div class="fc-screen-header">
+                            <div class="fc-screen-dots"><span></span><span></span><span></span></div>
+                            <span class="text-muted small ms-3">FinCore AI</span>
+                        </div>
+                        <div class="fc-screen-body p-4">
+                            <div class="fc-chat-msg fc-chat-user">Когда нужно сдавать форму 910?</div>
+                            <div class="fc-chat-msg fc-chat-ai">
+                                <i class="bi bi-stars text-primary me-2"></i>
+                                Форма 910 (упрощённая декларация) сдаётся <strong>два раза в год</strong>: за первое полугодие — до 15 августа, за второе — до 15 февраля следующего года. Хотите напомнить?
+                            </div>
+                            <div class="fc-chat-msg fc-chat-user">Да, поставь напоминание</div>
+                            <div class="fc-chat-msg fc-chat-ai">
+                                <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                Готово! Напоминание установлено на 10 августа и 10 февраля.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="fc-stats-section py-6">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="fc-section-badge"><i class="bi bi-trophy-fill me-2"></i>@L["Stats.Badge"]</span>
+            <h2 class="fc-section-title mt-3">@L["Stats.Title"]</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                <div class="fc-stat-card" style="--accent:#3B82F6">
+                    <div class="fc-stat-icon"><i class="bi bi-people-fill"></i></div>
+                    <div class="fc-stat-num" data-count="1200">0</div>
+                    <div class="fc-stat-label">@L["Stats.1"]</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                <div class="fc-stat-card" style="--accent:#10B981">
+                    <div class="fc-stat-icon"><i class="bi bi-puzzle-fill"></i></div>
+                    <div class="fc-stat-num" data-count="80">0</div>
+                    <div class="fc-stat-label">@L["Stats.2"]</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                <div class="fc-stat-card" style="--accent:#8B5CF6">
+                    <div class="fc-stat-icon"><i class="bi bi-lightning-fill"></i></div>
+                    <div class="fc-stat-num" data-count="5">0</div>
+                    <div class="fc-stat-label">@L["Stats.3"]</div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                <div class="fc-stat-card" style="--accent:#F59E0B">
+                    <div class="fc-stat-icon"><i class="bi bi-award-fill"></i></div>
+                    <div class="fc-stat-num" data-count="7">0</div>
+                    <div class="fc-stat-label">@L["Stats.4"]</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== WHY US ===== -->
+<section class="fc-section py-6">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="fc-section-badge"><i class="bi bi-shield-check-fill me-2"></i>Преимущества</span>
+            <h2 class="fc-section-title mt-3">Почему выбирают<br><span class="fc-gradient-text">FinCore</span></h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="fc-why-card">
+                    <div class="fc-why-icon"><i class="bi bi-shield-lock-fill"></i></div>
+                    <h5 class="fw-bold mt-3 mb-2">Безопасность банковского уровня</h5>
+                    <p class="text-muted small">Шифрование данных, двухфакторная аутентификация и соответствие требованиям GDPR и законодательства РК.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="fc-why-card">
+                    <div class="fc-why-icon"><i class="bi bi-speedometer2"></i></div>
+                    <h5 class="fw-bold mt-3 mb-2">Скорость — за 5 минут</h5>
+                    <p class="text-muted small">Автоматическое формирование ЭСФ, деклараций и платёжек. Среднее время ответа системы — менее 1 секунды.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="fc-why-card">
+                    <div class="fc-why-icon"><i class="bi bi-headset"></i></div>
+                    <h5 class="fw-bold mt-3 mb-2">Поддержка 24/7</h5>
+                    <p class="text-muted small">Персональный менеджер, чат, телефон и база знаний. Среднее время первого ответа — 3 минуты.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="fc-why-card">
+                    <div class="fc-why-icon"><i class="bi bi-plug-fill"></i></div>
+                    <h5 class="fw-bold mt-3 mb-2">80+ интеграций</h5>
+                    <p class="text-muted small">Kaspi Pay, Halyk, Kolesa, 1С, eSalyq, enbek.kz, ИС ЭСФ и многие другие системы из коробки.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="fc-why-card">
+                    <div class="fc-why-icon"><i class="bi bi-phone-fill"></i></div>
+                    <h5 class="fw-bold mt-3 mb-2">Мобильное приложение</h5>
+                    <p class="text-muted small">Управляйте бизнесом с телефона. iOS и Android. Полный функционал — в кармане.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="fc-why-card">
+                    <div class="fc-why-icon"><i class="bi bi-currency-exchange"></i></div>
+                    <h5 class="fw-bold mt-3 mb-2">Выгоднее штатного бухгалтера</h5>
+                    <p class="text-muted small">В среднем в 3 раза дешевле содержания штатного бухгалтера. Подписка от 5 000 ₸ в месяц.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="fc-pricing-section py-6">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="fc-section-badge"><i class="bi bi-tag-fill me-2"></i>Тарифы</span>
+            <h2 class="fc-section-title mt-3">Простые и честные<br><span class="fc-gradient-text">цены</span></h2>
+            <p class="fc-section-sub">Без скрытых платежей. Без сюрпризов.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="fc-price-card">
+                    <div class="fc-price-name">Старт</div>
+                    <div class="fc-price-amount">5 000 <span>₸/мес</span></div>
+                    <p class="text-muted small mb-4">Для самозанятых и ИП</p>
+                    <ul class="fc-price-features">
+                        <li><i class="bi bi-check text-success"></i> 1 организация</li>
+                        <li><i class="bi bi-check text-success"></i> ЭСФ и накладные</li>
+                        <li><i class="bi bi-check text-success"></i> Базовые отчёты</li>
+                        <li><i class="bi bi-check text-success"></i> Чат-поддержка</li>
+                        <li class="fc-disabled"><i class="bi bi-x text-muted"></i> FinCore AI</li>
+                        <li class="fc-disabled"><i class="bi bi-x text-muted"></i> Мультиорганизация</li>
+                    </ul>
+                    <a href="/Contacts" class="btn w-100 fc-btn-price-outline mt-4">Начать бесплатно</a>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="fc-price-card fc-price-popular">
+                    <div class="fc-popular-badge">Популярный</div>
+                    <div class="fc-price-name">Бизнес</div>
+                    <div class="fc-price-amount">18 000 <span>₸/мес</span></div>
+                    <p class="text-muted small mb-4">Для МСБ и аутсорс-компаний</p>
+                    <ul class="fc-price-features">
+                        <li><i class="bi bi-check text-success"></i> До 5 организаций</li>
+                        <li><i class="bi bi-check text-success"></i> Полный документооборот</li>
+                        <li><i class="bi bi-check text-success"></i> Зарплата и кадры</li>
+                        <li><i class="bi bi-check text-success"></i> FinCore AI (базовый)</li>
+                        <li><i class="bi bi-check text-success"></i> Приоритетная поддержка</li>
+                        <li class="fc-disabled"><i class="bi bi-x text-muted"></i> API доступ</li>
+                    </ul>
+                    <a href="/Contacts" class="btn w-100 fc-btn-cta mt-4">Попробовать 14 дней бесплатно</a>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="fc-price-card">
+                    <div class="fc-price-name">Корпорация</div>
+                    <div class="fc-price-amount">По запросу</div>
+                    <p class="text-muted small mb-4">Для крупных компаний и банков</p>
+                    <ul class="fc-price-features">
+                        <li><i class="bi bi-check text-success"></i> Неограниченно организаций</li>
+                        <li><i class="bi bi-check text-success"></i> Полный FinCore AI</li>
+                        <li><i class="bi bi-check text-success"></i> Открытый API</li>
+                        <li><i class="bi bi-check text-success"></i> SLA 99.9%</li>
+                        <li><i class="bi bi-check text-success"></i> Персональный менеджер</li>
+                        <li><i class="bi bi-check text-success"></i> Кастомные интеграции</li>
+                    </ul>
+                    <a href="/Contacts" class="btn w-100 fc-btn-price-outline mt-4">Связаться с нами</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="fc-section py-6">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="fc-section-badge"><i class="bi bi-chat-quote-fill me-2"></i>Отзывы</span>
+            <h2 class="fc-section-title mt-3">Что говорят наши<br><span class="fc-gradient-text">клиенты</span></h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="fc-review-card">
+                    <div class="fc-stars mb-3">
+                        @for(int i=0;i<5;i++){<i class="bi bi-star-fill text-warning"></i>}
+                    </div>
+                    <p class="text-dark mb-4">"FinCore полностью изменил то, как мы ведём бухгалтерию. Раньше тратили 2 дня на закрытие месяца — теперь 2 часа."</p>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="fc-reviewer-av" style="background:linear-gradient(135deg,#3B82F6,#8B5CF6)">СА</div>
+                        <div>
+                            <div class="fw-semibold small">Серик Асанов</div>
+                            <div class="text-muted" style="font-size:0.75rem">Директор, ТОО «АгроПлюс»</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="fc-review-card">
+                    <div class="fc-stars mb-3">
+                        @for(int i=0;i<5;i++){<i class="bi bi-star-fill text-warning"></i>}
+                    </div>
+                    <p class="text-dark mb-4">"Сервис отвечает быстро, всё объясняют понятно. ИИ-бухгалтер нашёл ошибку в декларации, которую я не замечала год!"</p>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="fc-reviewer-av" style="background:linear-gradient(135deg,#10B981,#06B6D4)">ЖА</div>
+                        <div>
+                            <div class="fw-semibold small">Жанар Ахметова</div>
+                            <div class="text-muted" style="font-size:0.75rem">Главный бухгалтер, ИП Ахметова</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="fc-review-card">
+                    <div class="fc-stars mb-3">
+                        @for(int i=0;i<5;i++){<i class="bi bi-star-fill text-warning"></i>}
+                    </div>
+                    <p class="text-dark mb-4">"Перешли с 1С на FinCore — и не пожалели. Интерфейс в 10 раз удобнее, всё интуитивно, поддержка всегда на связи."</p>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="fc-reviewer-av" style="background:linear-gradient(135deg,#F59E0B,#EF4444)">МД</div>
+                        <div>
+                            <div class="fw-semibold small">Марат Дюсенов</div>
+                            <div class="text-muted" style="font-size:0.75rem">Владелец, сеть кофеен «Кофе Тайм»</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="fc-section py-6" id="faq">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <span class="fc-section-badge"><i class="bi bi-question-circle-fill me-2"></i>@L["Faq.Badge"]</span>
+                    <h2 class="fc-section-title mt-3">@L["Faq.Title"]</h2>
+                </div>
+                <div class="accordion fc-accordion" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
+                    @{
+                        var faqs = new[]{
+                            (L["Faq.Q1"].Value, L["Faq.A1"].Value),
+                            (L["Faq.Q2"].Value, L["Faq.A2"].Value),
+                            (L["Faq.Q3"].Value, L["Faq.A3"].Value),
+                            (L["Faq.Q4"].Value, L["Faq.A4"].Value),
+                        };
+                        for (int i = 0; i < faqs.Length; i++)
+                        {
+                            var (q, a) = faqs[i];
+                            <div class="accordion-item fc-acc-item border-0 mb-2">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fc-acc-btn @(i == 0 ? "" : "collapsed")" type="button" data-bs-toggle="collapse" data-bs-target="#faq@(i)">
+                                        @q
+                                    </button>
+                                </h2>
+                                <div id="faq@(i)" class="accordion-collapse collapse @(i == 0 ? "show" : "")" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body fc-acc-body">@a</div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="fc-cta-banner py-6" data-aos="fade-up">
+    <div class="container">
+        <div class="fc-cta-inner text-center">
+            <div class="fc-cta-orb"></div>
+            <h2 class="display-5 fw-bold text-white mb-3">@L["Cta.Title"]</h2>
+            <p class="text-white-50 mb-5 fs-5">@L["Cta.Sub"]</p>
+            <div class="d-flex flex-wrap gap-3 justify-content-center">
+                <a href="/Contacts" class="btn btn-light fw-semibold px-5 py-3 rounded-pill">
+                    @L["Cta.Start"] <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+                <a href="/Contacts" class="btn btn-outline-light px-5 py-3 rounded-pill">
+                    @L["Cta.Demo"]
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

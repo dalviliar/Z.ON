@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType><xsd:choice maxOccurs="unbounded">
+        <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/></xsd:sequence><xsd:attribute name="name" type="xsd:string"/></xsd:complexType></xsd:element>
+      </xsd:choice></xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter</value></resheader>
+
+  <!-- NAV -->
+  <data name="Nav.Products"><value>Продукты</value></data>
+  <data name="Nav.About"><value>О компании</value></data>
+  <data name="Nav.FAQ"><value>FAQ</value></data>
+  <data name="Nav.Contacts"><value>Контакты</value></data>
+  <data name="Nav.Login"><value>Войти</value></data>
+  <data name="Nav.TryFree"><value>Попробовать бесплатно</value></data>
+  <data name="Nav.Pro.Desc"><value>Профессиональный учёт</value></data>
+  <data name="Nav.Business.Desc"><value>Для компаний и платформ</value></data>
+  <data name="Nav.Edo.Desc"><value>Электронный документооборот</value></data>
+  <data name="Nav.Ai.Desc"><value>ИИ-бухгалтер</value></data>
+
+  <!-- HERO -->
+  <data name="Hero.Badge"><value>ИИ-бухгалтерия для вашего бизнеса</value></data>
+  <data name="Hero.Title1"><value>Бухгалтерия</value></data>
+  <data name="Hero.Title2"><value>без стресса</value></data>
+  <data name="Hero.Title3"><value>и ошибок</value></data>
+  <data name="Hero.Sub"><value>Автоматизируйте налоги, счета и отчётность. FinCore сам считает, проверяет и сдаёт — вы просто управляете бизнесом.</value></data>
+  <data name="Hero.Start"><value>Начать бесплатно</value></data>
+  <data name="Hero.Demo"><value>Смотреть демо</value></data>
+  <data name="Hero.Trust"><value>Доверяют <strong>1 200+</strong> компаний</value></data>
+
+  <!-- CLIENTS -->
+  <data name="Clients.Title"><value>Нам доверяют ведущие компании Казахстана</value></data>
+
+  <!-- SOLUTIONS -->
+  <data name="Solutions.Badge"><value>Решения</value></data>
+  <data name="Solutions.Title"><value>Решения для каждого этапа вашего бизнеса</value></data>
+  <data name="Solutions.Sub"><value>Единая платформа для разных форм ведения бухгалтерского учёта</value></data>
+  <data name="Solutions.More"><value>Подробнее</value></data>
+  <data name="Sol.1.Title"><value>Самозанятые и ИП</value></data>
+  <data name="Sol.1.Desc"><value>Управляйте доходами, выставляйте счета и платите налоги без бухгалтера — за 5 минут.</value></data>
+  <data name="Sol.2.Title"><value>МСБ с бухгалтером</value></data>
+  <data name="Sol.2.Desc"><value>Ваш бухгалтер работает быстрее и точнее — все документы, ЭСФ и отчёты в одном окне.</value></data>
+  <data name="Sol.3.Title"><value>Аутсорс-компании</value></data>
+  <data name="Sol.3.Desc"><value>Управляйте десятками фирм в одном интерфейсе. Быстро, прозрачно, без путаницы.</value></data>
+  <data name="Sol.4.Title"><value>Торговля и общепит</value></data>
+  <data name="Sol.4.Desc"><value>Автоматизируйте продажи, закупки и налоги для кафе, магазинов и онлайн-торговли.</value></data>
+  <data name="Sol.5.Title"><value>Маркетплейсы</value></data>
+  <data name="Sol.5.Desc"><value>Интегрируйте FinCore, чтобы автоматизировать расчёты и налоги для тысяч подрядчиков.</value></data>
+  <data name="Sol.6.Title"><value>Банки и финтех</value></data>
+  <data name="Sol.6.Desc"><value>API для встраивания бухгалтерских функций прямо в банковские и платёжные приложения.</value></data>
+
+  <!-- PRODUCTS -->
+  <data name="Prod.Badge"><value>Продукты</value></data>
+  <data name="Prod.Title"><value>Усильте компанию с помощью масштабируемых инструментов</value></data>
+  <data name="Prod.Pro.Title"><value>FinCore Pro — профессиональная учётная система</value></data>
+  <data name="Prod.Pro.Desc"><value>Автоматизирует бухгалтерию и налоги для МСБ, создаёт документы и отчётность по НСФО и НК РК, исключая ручные ошибки.</value></data>
+  <data name="Prod.More"><value>Подробнее</value></data>
+
+  <!-- STATS -->
+  <data name="Stats.Badge"><value>Достижения</value></data>
+  <data name="Stats.Title"><value>FinCore в цифрах</value></data>
+  <data name="Stats.1"><value>компаний доверяют нам</value></data>
+  <data name="Stats.2"><value>интеграций с системами</value></data>
+  <data name="Stats.3"><value>млн операций в 2025 г.</value></data>
+  <data name="Stats.4"><value>лет на FinTech рынке</value></data>
+
+  <!-- WHY -->
+  <data name="Why.Badge"><value>Преимущества</value></data>
+  <data name="Why.Title"><value>Почему выбирают FinCore</value></data>
+  <data name="Why.1.Title"><value>Безопасность банковского уровня</value></data>
+  <data name="Why.1.Desc"><value>Шифрование данных, двухфакторная аутентификация и соответствие требованиям законодательства РК.</value></data>
+  <data name="Why.2.Title"><value>Скорость — за 5 минут</value></data>
+  <data name="Why.2.Desc"><value>Автоматическое формирование ЭСФ, деклараций и платёжек. Среднее время ответа — менее 1 секунды.</value></data>
+  <data name="Why.3.Title"><value>Поддержка 24/7</value></data>
+  <data name="Why.3.Desc"><value>Персональный менеджер, чат, телефон и база знаний. Среднее время первого ответа — 3 минуты.</value></data>
+  <data name="Why.4.Title"><value>80+ интеграций</value></data>
+  <data name="Why.4.Desc"><value>Kaspi Pay, Halyk, eSalyq, enbek.kz, ИС ЭСФ и многие другие системы из коробки.</value></data>
+  <data name="Why.5.Title"><value>Мобильное приложение</value></data>
+  <data name="Why.5.Desc"><value>Управляйте бизнесом с телефона. iOS и Android. Полный функционал — в кармане.</value></data>
+  <data name="Why.6.Title"><value>Выгоднее штатного бухгалтера</value></data>
+  <data name="Why.6.Desc"><value>В среднем в 3 раза дешевле. Подписка от 5 000 ₸ в месяц.</value></data>
+
+  <!-- PRICING -->
+  <data name="Price.Badge"><value>Тарифы</value></data>
+  <data name="Price.Title"><value>Простые и честные цены</value></data>
+  <data name="Price.Sub"><value>Без скрытых платежей. Без сюрпризов.</value></data>
+  <data name="Price.Popular"><value>Популярный</value></data>
+  <data name="Price.TryFree"><value>Попробовать 14 дней бесплатно</value></data>
+  <data name="Price.StartFree"><value>Начать бесплатно</value></data>
+  <data name="Price.Contact"><value>Связаться с нами</value></data>
+  <data name="Price.Month"><value>₸/мес</value></data>
+  <data name="Price.OnRequest"><value>По запросу</value></data>
+
+  <!-- REVIEWS -->
+  <data name="Rev.Badge"><value>Отзывы</value></data>
+  <data name="Rev.Title"><value>Что говорят наши клиенты</value></data>
+
+  <!-- FAQ -->
+  <data name="Faq.Badge"><value>FAQ</value></data>
+  <data name="Faq.Title"><value>Часто задаваемые вопросы</value></data>
+  <data name="Faq.Q1"><value>Что такое FinCore Pro?</value></data>
+  <data name="Faq.A1"><value>FinCore Pro — профессиональная система учёта для МСБ. Автоматизирует бухгалтерский и налоговый учёт, зарплату, отчётность по НК РК, помогая избежать ошибок и штрафов.</value></data>
+  <data name="Faq.Q2"><value>Нужен ли бухгалтер для работы с FinCore?</value></data>
+  <data name="Faq.A2"><value>Нет! FinCore создан так, что вы можете вести учёт самостоятельно. При желании подключите бухгалтера или воспользуйтесь FinCore AI.</value></data>
+  <data name="Faq.Q3"><value>Для кого предназначен сервис?</value></data>
+  <data name="Faq.A3"><value>FinCore подходит для самозанятых, ИП, МСБ, аутсорс-бухгалтерий, маркетплейсов и банков.</value></data>
+  <data name="Faq.Q4"><value>Есть ли демонстрационный режим?</value></data>
+  <data name="Faq.A4"><value>Да! 14-дневный бесплатный период без ввода карты. Полный функционал бесплатно.</value></data>
+
+  <!-- CTA -->
+  <data name="Cta.Title"><value>Готовы автоматизировать бухгалтерию?</value></data>
+  <data name="Cta.Sub"><value>Начните бесплатно — без карты, без обязательств. Настройка за 15 минут.</value></data>
+  <data name="Cta.Start"><value>Начать бесплатно</value></data>
+  <data name="Cta.Demo"><value>Запросить демо</value></data>
+
+  <!-- FOOTER -->
+  <data name="Footer.Desc"><value>Умная бухгалтерия и автоматизация налогов для бизнеса в Казахстане и Кыргызстане.</value></data>
+  <data name="Footer.Solutions"><value>Решения</value></data>
+  <data name="Footer.Products"><value>Продукты</value></data>
+  <data name="Footer.Company"><value>Компания</value></data>
+  <data name="Footer.Rights"><value>© 2026 ТОО «FinCore Group». Все права защищены.</value></data>
+  <data name="Footer.Privacy"><value>Политика конфиденциальности</value></data>
+  <data name="Footer.Offer"><value>Публичная оферта</value></data>
+  <data name="Footer.Career"><value>Карьера</value></data>
+
+  <!-- CONTACTS PAGE -->
+  <data name="Cnt.Title"><value>Свяжитесь с нами</value></data>
+  <data name="Cnt.Sub"><value>Получите поддержку и доступ к инструментам для эффективного ведения бизнеса.</value></data>
+  <data name="Cnt.Send"><value>Отправить сообщение</value></data>
+  <data name="Cnt.AvgTime"><value>Среднее время ответа — <strong>3 минуты</strong></value></data>
+  <data name="Cnt.Name"><value>Имя *</value></data>
+  <data name="Cnt.Phone"><value>Телефон</value></data>
+  <data name="Cnt.Email"><value>Email *</value></data>
+  <data name="Cnt.Company"><value>Компания</value></data>
+  <data name="Cnt.Message"><value>Сообщение *</value></data>
+  <data name="Cnt.Submit"><value>Отправить сообщение</value></data>
+
+  <!-- ABOUT PAGE -->
+  <data name="Ab.Title"><value>FinCore — цифровая экосистема бухгалтерии для бизнеса в Казахстане</value></data>
+  <data name="Ab.Sub"><value>Мы помогаем предпринимателям держать финансы под контролем, работать прозрачно и не бояться налогов.</value></data>
+  <data name="Ab.Mission.Title"><value>Сделать бухгалтерию простой и понятной для каждого предпринимателя</value></data>
+  <data name="Ab.Vision.Title"><value>FinCore — когда финансы под контролем, а бизнес движется вперёд</value></data>
+</root>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType><xsd:choice maxOccurs="unbounded">
+        <xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/></xsd:sequence><xsd:attribute name="name" type="xsd:string"/></xsd:complexType></xsd:element>
+      </xsd:choice></xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter</value></resheader>
+
+  <data name="Nav.Products"><value>Өнімдер</value></data>
+  <data name="Nav.About"><value>Компания туралы</value></data>
+  <data name="Nav.FAQ"><value>ЖҚС</value></data>
+  <data name="Nav.Contacts"><value>Байланыс</value></data>
+  <data name="Nav.Login"><value>Кіру</value></data>
+  <data name="Nav.TryFree"><value>Тегін қолданып көру</value></data>
+  <data name="Nav.Pro.Desc"><value>Кәсіби есеп жүргізу</value></data>
+  <data name="Nav.Business.Desc"><value>Компаниялар мен платформалар үшін</value></data>
+  <data name="Nav.Edo.Desc"><value>Электрондық құжат айналымы</value></data>
+  <data name="Nav.Ai.Desc"><value>ЖИ-бухгалтер</value></data>
+
+  <data name="Hero.Badge"><value>Бизнесіңіз үшін ЖИ-бухгалтерия</value></data>
+  <data name="Hero.Title1"><value>Бухгалтерия</value></data>
+  <data name="Hero.Title2"><value>стрессіз</value></data>
+  <data name="Hero.Title3"><value>және қатесіз</value></data>
+  <data name="Hero.Sub"><value>Салықтарды, шоттарды және есептілікті автоматтандырыңыз. FinCore өзі есептейді, тексереді және тапсырады — сіз тек бизнесіңізді басқарыңыз.</value></data>
+  <data name="Hero.Start"><value>Тегін бастау</value></data>
+  <data name="Hero.Demo"><value>Демо көру</value></data>
+  <data name="Hero.Trust"><value><strong>1 200+</strong> компания сенеді</value></data>
+
+  <data name="Clients.Title"><value>Қазақстанның жетекші компаниялары бізге сенеді</value></data>
+
+  <data name="Solutions.Badge"><value>Шешімдер</value></data>
+  <data name="Solutions.Title"><value>Бизнесіңіздің әр кезеңіне арналған шешімдер</value></data>
+  <data name="Solutions.Sub"><value>Бухгалтерлік есептің әр түрі үшін бірыңғай платформа</value></data>
+  <data name="Solutions.More"><value>Толығырақ</value></data>
+  <data name="Sol.1.Title"><value>Дербес жұмысшылар мен ЖК</value></data>
+  <data name="Sol.1.Desc"><value>Кірісті басқарыңыз, шот-фактура жіберіңіз және салықты бухгалтерсіз төлеңіз — 5 минутта.</value></data>
+  <data name="Sol.2.Title"><value>Бухгалтермен ШОБ</value></data>
+  <data name="Sol.2.Desc"><value>Бухгалтеріңіз тезірек және дәлірек жұмыс істейді — барлық құжаттар бір терезеде.</value></data>
+  <data name="Sol.3.Title"><value>Аутсорсинг компаниялары</value></data>
+  <data name="Sol.3.Desc"><value>Ондаған фирманы бір интерфейсте басқарыңыз. Жылдам, мөлдір, шатасусыз.</value></data>
+  <data name="Sol.4.Title"><value>Сауда және тамақтандыру</value></data>
+  <data name="Sol.4.Desc"><value>Кафелер мен дүкендер үшін сатылым мен салықты автоматтандырыңыз.</value></data>
+  <data name="Sol.5.Title"><value>Маркетплейстер</value></data>
+  <data name="Sol.5.Desc"><value>Мыңдаған мердігерлер үшін есеп айырысуды автоматтандыру үшін FinCore-ды интеграциялаңыз.</value></data>
+  <data name="Sol.6.Title"><value>Банктер мен финтех</value></data>
+  <data name="Sol.6.Desc"><value>Бухгалтерлік функцияларды банктік қосымшаларға енгізу үшін API.</value></data>
+
+  <data name="Prod.Badge"><value>Өнімдер</value></data>
+  <data name="Prod.Title"><value>Масштабталатын құралдармен компанияңызды күшейтіңіз</value></data>
+  <data name="Prod.Pro.Title"><value>FinCore Pro — кәсіби есеп жүйесі</value></data>
+  <data name="Prod.Pro.Desc"><value>ШОБ үшін бухгалтерия мен салықты автоматтандырады, НСФО және ҚР СК бойынша есептілік жасайды.</value></data>
+  <data name="Prod.More"><value>Толығырақ</value></data>
+
+  <data name="Stats.Badge"><value>Жетістіктер</value></data>
+  <data name="Stats.Title"><value>FinCore сандарда</value></data>
+  <data name="Stats.1"><value>компания бізге сенеді</value></data>
+  <data name="Stats.2"><value>жүйелермен интеграция</value></data>
+  <data name="Stats.3"><value>млн операция 2025 жылы</value></data>
+  <data name="Stats.4"><value>жыл FinTech нарығында</value></data>
+
+  <data name="Why.Badge"><value>Артықшылықтар</value></data>
+  <data name="Why.Title"><value>Неліктен FinCore таңдайды</value></data>
+  <data name="Why.1.Title"><value>Банктік деңгейдегі қауіпсіздік</value></data>
+  <data name="Why.1.Desc"><value>Деректерді шифрлау, екі факторлы аутентификация және ҚР заңнамасына сәйкестік.</value></data>
+  <data name="Why.2.Title"><value>Жылдамдық — 5 минутта</value></data>
+  <data name="Why.2.Desc"><value>ЭШФ, декларациялар мен төлем тапсырмаларын автоматты түрде қалыптастыру.</value></data>
+  <data name="Why.3.Title"><value>Қолдау 24/7</value></data>
+  <data name="Why.3.Desc"><value>Жеке менеджер, чат, телефон. Бірінші жауаптың орташа уақыты — 3 минут.</value></data>
+  <data name="Why.4.Title"><value>80+ интеграция</value></data>
+  <data name="Why.4.Desc"><value>Kaspi Pay, Halyk, eSalyq, enbek.kz және басқа жүйелер дайын.</value></data>
+  <data name="Why.5.Title"><value>Мобильді қосымша</value></data>
+  <data name="Why.5.Desc"><value>iOS және Android. Толық функционал — қалтада.</value></data>
+  <data name="Why.6.Title"><value>Штаттық бухгалтерден тиімді</value></data>
+  <data name="Why.6.Desc"><value>Орта есеппен 3 есе арзан. Жазылым айына 5 000 ₸-ден.</value></data>
+
+  <data name="Price.Badge"><value>Тарифтер</value></data>
+  <data name="Price.Title"><value>Қарапайым және адал бағалар</value></data>
+  <data name="Price.Sub"><value>Жасырын төлемдер жоқ. Сюрпризлер жоқ.</value></data>
+  <data name="Price.Popular"><value>Танымал</value></data>
+  <data name="Price.TryFree"><value>14 күн тегін қолданып көру</value></data>
+  <data name="Price.StartFree"><value>Тегін бастау</value></data>
+  <data name="Price.Contact"><value>Бізбен байланысу</value></data>
+  <data name="Price.Month"><value>₸/ай</value></data>
+  <data name="Price.OnRequest"><value>Сұрау бойынша</value></data>
+
+  <data name="Rev.Badge"><value>Пікірлер</value></data>
+  <data name="Rev.Title"><value>Клиенттеріміз не дейді</value></data>
+
+  <data name="Faq.Badge"><value>ЖҚС</value></data>
+  <data name="Faq.Title"><value>Жиі қойылатын сұрақтар</value></data>
+  <data name="Faq.Q1"><value>FinCore Pro дегеніміз не?</value></data>
+  <data name="Faq.A1"><value>FinCore Pro — ШОБ үшін кәсіби есеп жүйесі. Бухгалтерлік және салықтық есепті автоматтандырады.</value></data>
+  <data name="Faq.Q2"><value>Бухгалтер керек пе?</value></data>
+  <data name="Faq.A2"><value>Жоқ! FinCore есепті өз бетіңізше жүргізуге мүмкіндік береді. Қаласаңыз FinCore AI қосыңыз.</value></data>
+  <data name="Faq.Q3"><value>Қызмет кімге арналған?</value></data>
+  <data name="Faq.A3"><value>FinCore дербес жұмысшыларға, ЖК, ШОБ, маркетплейстер мен банктерге сәйкес.</value></data>
+  <data name="Faq.Q4"><value>Демо режим бар ма?</value></data>
+  <data name="Faq.A4"><value>Иә! Картасыз 14 күндік тегін кезең. Толық функционал тегін.</value></data>
+
+  <data name="Cta.Title"><value>Бухгалтерияны автоматтандыруға дайынсыз ба?</value></data>
+  <data name="Cta.Sub"><value>Тегін бастаңыз — картасыз, міндеттемесіз. Баптау 15 минутта.</value></data>
+  <data name="Cta.Start"><value>Тегін бастау</value></data>
+  <data name="Cta.Demo"><value>Демо сұрату</value></data>
+
+  <data name="Footer.Desc"><value>Қазақстан мен Қырғызстандағы бизнес үшін ақылды бухгалтерия.</value></data>
+  <data name="Footer.Solutions"><value>Шешімдер</value></data>
+  <data name="Footer.Products"><value>Өнімдер</value></data>
+  <data name="Footer.Company"><value>Компания</value></data>
+  <data name="Footer.Rights"><value>© 2026 «FinCore Group» ЖШС. Барлық құқықтар қорғалған.</value></data>
+  <data name="Footer.Privacy"><value>Құпиялылық саясаты</value></data>
+  <data name="Footer.Offer"><value>Жария оферта</value></data>
+  <data name="Footer.Career"><value>Мансап</value></data>
+
+  <data name="Cnt.Title"><value>Бізбен байланысыңыз</value></data>
+  <data name="Cnt.Sub"><value>Тиімді бизнес жүргізу үшін қолдау мен құралдарға қол жеткізіңіз.</value></data>
+  <data name="Cnt.Send"><value>Хабарлама жіберу</value></data>
+  <data name="Cnt.AvgTime"><value>Орташа жауап уақыты — <strong>3 минут</strong></value></data>
+  <data name="Cnt.Name"><value>Аты-жөні *</value></data>
+  <data name="Cnt.Phone"><value>Телефон</value></data>
+  <data name="Cnt.Email"><value>Email *</value></data>
+  <data name="Cnt.Company"><value>Компания</value></data>
+  <data name="Cnt.Message"><value>Хабарлама *</value></data>
+  <data name="Cnt.Submit"><value>Хабарлама жіберу</value></data>
+
+  <data name="Ab.Title"><value>FinCore — Қазақстандағы бизнес үшін бухгалтерияның цифрлық экожүйесі</value></data>
+  <data name="Ab.Sub"><value>Біз кәсіпкерлерге қаржыны бақылауда ұстауға және салықтан қорықпауға көмектесеміз.</value></data>
+  <data name="Ab.Mission.Title"><value>Бухгалтерияны әр кәсіпкер үшін қарапайым ету</value></data>
+  <data name="Ab.Vision.Title"><value>FinCore — қаржы бақылауда болғанда, бизнес алға жылжиды</value></data>
+</root>
