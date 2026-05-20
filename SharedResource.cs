@@ -1,3 +1,3 @@
-﻿namespace Z.ONLanding;
+﻿namespace FinCoreLanding;
 
 public class SharedResource { }
