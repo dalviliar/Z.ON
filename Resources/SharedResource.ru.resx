@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -29,7 +29,7 @@
   <data name="Hero.Title1"><value>Бухгалтерия</value></data>
   <data name="Hero.Title2"><value>без стресса</value></data>
   <data name="Hero.Title3"><value>и ошибок</value></data>
-  <data name="Hero.Sub"><value>Автоматизируйте налоги, счета и отчётность. FinCore сам считает, проверяет и сдаёт — вы просто управляете бизнесом.</value></data>
+  <data name="Hero.Sub"><value>Автоматизируйте налоги, счета и отчётность. Z.ON сам считает, проверяет и сдаёт — вы просто управляете бизнесом.</value></data>
   <data name="Hero.Start"><value>Начать бесплатно</value></data>
   <data name="Hero.Demo"><value>Смотреть демо</value></data>
   <data name="Hero.Trust"><value>Доверяют <strong>1 200+</strong> компаний</value></data>
@@ -51,20 +51,20 @@
   <data name="Sol.4.Title"><value>Торговля и общепит</value></data>
   <data name="Sol.4.Desc"><value>Автоматизируйте продажи, закупки и налоги для кафе, магазинов и онлайн-торговли.</value></data>
   <data name="Sol.5.Title"><value>Маркетплейсы</value></data>
-  <data name="Sol.5.Desc"><value>Интегрируйте FinCore, чтобы автоматизировать расчёты и налоги для тысяч подрядчиков.</value></data>
+  <data name="Sol.5.Desc"><value>Интегрируйте Z.ON, чтобы автоматизировать расчёты и налоги для тысяч подрядчиков.</value></data>
   <data name="Sol.6.Title"><value>Банки и финтех</value></data>
   <data name="Sol.6.Desc"><value>API для встраивания бухгалтерских функций прямо в банковские и платёжные приложения.</value></data>
 
   <!-- PRODUCTS -->
   <data name="Prod.Badge"><value>Продукты</value></data>
   <data name="Prod.Title"><value>Усильте компанию с помощью масштабируемых инструментов</value></data>
-  <data name="Prod.Pro.Title"><value>FinCore Pro — профессиональная учётная система</value></data>
+  <data name="Prod.Pro.Title"><value>Z.ON Pro — профессиональная учётная система</value></data>
   <data name="Prod.Pro.Desc"><value>Автоматизирует бухгалтерию и налоги для МСБ, создаёт документы и отчётность по НСФО и НК РК, исключая ручные ошибки.</value></data>
   <data name="Prod.More"><value>Подробнее</value></data>
 
   <!-- STATS -->
   <data name="Stats.Badge"><value>Достижения</value></data>
-  <data name="Stats.Title"><value>FinCore в цифрах</value></data>
+  <data name="Stats.Title"><value>Z.ON в цифрах</value></data>
   <data name="Stats.1"><value>компаний доверяют нам</value></data>
   <data name="Stats.2"><value>интеграций с системами</value></data>
   <data name="Stats.3"><value>млн операций в 2025 г.</value></data>
@@ -72,7 +72,7 @@
 
   <!-- WHY -->
   <data name="Why.Badge"><value>Преимущества</value></data>
-  <data name="Why.Title"><value>Почему выбирают FinCore</value></data>
+  <data name="Why.Title"><value>Почему выбирают Z.ON</value></data>
   <data name="Why.1.Title"><value>Безопасность банковского уровня</value></data>
   <data name="Why.1.Desc"><value>Шифрование данных, двухфакторная аутентификация и соответствие требованиям законодательства РК.</value></data>
   <data name="Why.2.Title"><value>Скорость — за 5 минут</value></data>
@@ -104,12 +104,12 @@
   <!-- FAQ -->
   <data name="Faq.Badge"><value>FAQ</value></data>
   <data name="Faq.Title"><value>Часто задаваемые вопросы</value></data>
-  <data name="Faq.Q1"><value>Что такое FinCore Pro?</value></data>
-  <data name="Faq.A1"><value>FinCore Pro — профессиональная система учёта для МСБ. Автоматизирует бухгалтерский и налоговый учёт, зарплату, отчётность по НК РК, помогая избежать ошибок и штрафов.</value></data>
-  <data name="Faq.Q2"><value>Нужен ли бухгалтер для работы с FinCore?</value></data>
-  <data name="Faq.A2"><value>Нет! FinCore создан так, что вы можете вести учёт самостоятельно. При желании подключите бухгалтера или воспользуйтесь FinCore AI.</value></data>
+  <data name="Faq.Q1"><value>Что такое Z.ON Pro?</value></data>
+  <data name="Faq.A1"><value>Z.ON Pro — профессиональная система учёта для МСБ. Автоматизирует бухгалтерский и налоговый учёт, зарплату, отчётность по НК РК, помогая избежать ошибок и штрафов.</value></data>
+  <data name="Faq.Q2"><value>Нужен ли бухгалтер для работы с Z.ON?</value></data>
+  <data name="Faq.A2"><value>Нет! Z.ON создан так, что вы можете вести учёт самостоятельно. При желании подключите бухгалтера или воспользуйтесь Z.ON AI.</value></data>
   <data name="Faq.Q3"><value>Для кого предназначен сервис?</value></data>
-  <data name="Faq.A3"><value>FinCore подходит для самозанятых, ИП, МСБ, аутсорс-бухгалтерий, маркетплейсов и банков.</value></data>
+  <data name="Faq.A3"><value>Z.ON подходит для самозанятых, ИП, МСБ, аутсорс-бухгалтерий, маркетплейсов и банков.</value></data>
   <data name="Faq.Q4"><value>Есть ли демонстрационный режим?</value></data>
   <data name="Faq.A4"><value>Да! 14-дневный бесплатный период без ввода карты. Полный функционал бесплатно.</value></data>
 
@@ -124,7 +124,7 @@
   <data name="Footer.Solutions"><value>Решения</value></data>
   <data name="Footer.Products"><value>Продукты</value></data>
   <data name="Footer.Company"><value>Компания</value></data>
-  <data name="Footer.Rights"><value>© 2026 ТОО «FinCore Group». Все права защищены.</value></data>
+  <data name="Footer.Rights"><value>© 2026 ТОО «Z.ON Group». Все права защищены.</value></data>
   <data name="Footer.Privacy"><value>Политика конфиденциальности</value></data>
   <data name="Footer.Offer"><value>Публичная оферта</value></data>
   <data name="Footer.Career"><value>Карьера</value></data>
@@ -142,8 +142,8 @@
   <data name="Cnt.Submit"><value>Отправить сообщение</value></data>
 
   <!-- ABOUT PAGE -->
-  <data name="Ab.Title"><value>FinCore — цифровая экосистема бухгалтерии для бизнеса в Казахстане</value></data>
+  <data name="Ab.Title"><value>Z.ON — цифровая экосистема бухгалтерии для бизнеса в Казахстане</value></data>
   <data name="Ab.Sub"><value>Мы помогаем предпринимателям держать финансы под контролем, работать прозрачно и не бояться налогов.</value></data>
   <data name="Ab.Mission.Title"><value>Сделать бухгалтерию простой и понятной для каждого предпринимателя</value></data>
-  <data name="Ab.Vision.Title"><value>FinCore — когда финансы под контролем, а бизнес движется вперёд</value></data>
+  <data name="Ab.Vision.Title"><value>Z.ON — когда финансы под контролем, а бизнес движется вперёд</value></data>
 </root>

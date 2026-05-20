@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -27,7 +27,7 @@
   <data name="Hero.Title1"><value>Accounting</value></data>
   <data name="Hero.Title2"><value>stress-free</value></data>
   <data name="Hero.Title3"><value>and error-free</value></data>
-  <data name="Hero.Sub"><value>Automate taxes, invoices and reporting. FinCore calculates, checks and files — you just run your business.</value></data>
+  <data name="Hero.Sub"><value>Automate taxes, invoices and reporting. Z.ON calculates, checks and files — you just run your business.</value></data>
   <data name="Hero.Start"><value>Start for Free</value></data>
   <data name="Hero.Demo"><value>Watch Demo</value></data>
   <data name="Hero.Trust"><value>Trusted by <strong>1,200+</strong> companies</value></data>
@@ -47,25 +47,25 @@
   <data name="Sol.4.Title"><value>Retail &amp; Food Service</value></data>
   <data name="Sol.4.Desc"><value>Automate sales, purchases and taxes for cafes, shops and e-commerce.</value></data>
   <data name="Sol.5.Title"><value>Marketplaces</value></data>
-  <data name="Sol.5.Desc"><value>Integrate FinCore to automate payouts and taxes for thousands of contractors.</value></data>
+  <data name="Sol.5.Desc"><value>Integrate Z.ON to automate payouts and taxes for thousands of contractors.</value></data>
   <data name="Sol.6.Title"><value>Banks &amp; Fintech</value></data>
   <data name="Sol.6.Desc"><value>API for embedding accounting functions directly into banking and payment apps.</value></data>
 
   <data name="Prod.Badge"><value>Products</value></data>
   <data name="Prod.Title"><value>Empower your company with scalable tools</value></data>
-  <data name="Prod.Pro.Title"><value>FinCore Pro — Professional Accounting System</value></data>
+  <data name="Prod.Pro.Title"><value>Z.ON Pro — Professional Accounting System</value></data>
   <data name="Prod.Pro.Desc"><value>Automates bookkeeping and taxes for SMB, generates documents and reports per IFRS and Kazakhstan Tax Code, eliminating manual errors.</value></data>
   <data name="Prod.More"><value>Learn more</value></data>
 
   <data name="Stats.Badge"><value>Achievements</value></data>
-  <data name="Stats.Title"><value>FinCore by the numbers</value></data>
+  <data name="Stats.Title"><value>Z.ON by the numbers</value></data>
   <data name="Stats.1"><value>companies trust us</value></data>
   <data name="Stats.2"><value>system integrations</value></data>
   <data name="Stats.3"><value>M operations in 2025</value></data>
   <data name="Stats.4"><value>years in FinTech market</value></data>
 
   <data name="Why.Badge"><value>Advantages</value></data>
-  <data name="Why.Title"><value>Why companies choose FinCore</value></data>
+  <data name="Why.Title"><value>Why companies choose Z.ON</value></data>
   <data name="Why.1.Title"><value>Bank-grade Security</value></data>
   <data name="Why.1.Desc"><value>Data encryption, two-factor authentication and compliance with Kazakhstan legislation requirements.</value></data>
   <data name="Why.2.Title"><value>Speed — in 5 Minutes</value></data>
@@ -94,12 +94,12 @@
 
   <data name="Faq.Badge"><value>FAQ</value></data>
   <data name="Faq.Title"><value>Frequently Asked Questions</value></data>
-  <data name="Faq.Q1"><value>What is FinCore Pro?</value></data>
-  <data name="Faq.A1"><value>FinCore Pro is a professional accounting system for SMB. It automates bookkeeping, tax accounting, payroll and Kazakhstan Tax Code reporting.</value></data>
-  <data name="Faq.Q2"><value>Do I need an accountant to use FinCore?</value></data>
-  <data name="Faq.A2"><value>No! FinCore is designed so you can manage accounting yourself. You can also connect an accountant or use FinCore AI.</value></data>
+  <data name="Faq.Q1"><value>What is Z.ON Pro?</value></data>
+  <data name="Faq.A1"><value>Z.ON Pro is a professional accounting system for SMB. It automates bookkeeping, tax accounting, payroll and Kazakhstan Tax Code reporting.</value></data>
+  <data name="Faq.Q2"><value>Do I need an accountant to use Z.ON?</value></data>
+  <data name="Faq.A2"><value>No! Z.ON is designed so you can manage accounting yourself. You can also connect an accountant or use Z.ON AI.</value></data>
   <data name="Faq.Q3"><value>Who is the service for?</value></data>
-  <data name="Faq.A3"><value>FinCore is suitable for freelancers, sole proprietors, SMBs, outsourcing firms, marketplaces and banks.</value></data>
+  <data name="Faq.A3"><value>Z.ON is suitable for freelancers, sole proprietors, SMBs, outsourcing firms, marketplaces and banks.</value></data>
   <data name="Faq.Q4"><value>Is there a demo mode?</value></data>
   <data name="Faq.A4"><value>Yes! A 14-day free trial with no credit card required. Full functionality — free.</value></data>
 
@@ -112,7 +112,7 @@
   <data name="Footer.Solutions"><value>Solutions</value></data>
   <data name="Footer.Products"><value>Products</value></data>
   <data name="Footer.Company"><value>Company</value></data>
-  <data name="Footer.Rights"><value>© 2026 FinCore Group LLC. All rights reserved.</value></data>
+  <data name="Footer.Rights"><value>© 2026 Z.ON Group LLC. All rights reserved.</value></data>
   <data name="Footer.Privacy"><value>Privacy Policy</value></data>
   <data name="Footer.Offer"><value>Terms of Service</value></data>
   <data name="Footer.Career"><value>Careers</value></data>
@@ -128,8 +128,8 @@
   <data name="Cnt.Message"><value>Message *</value></data>
   <data name="Cnt.Submit"><value>Send Message</value></data>
 
-  <data name="Ab.Title"><value>FinCore — Digital Accounting Ecosystem for Business in Kazakhstan</value></data>
+  <data name="Ab.Title"><value>Z.ON — Digital Accounting Ecosystem for Business in Kazakhstan</value></data>
   <data name="Ab.Sub"><value>We help entrepreneurs keep their finances under control, operate transparently and not fear taxes.</value></data>
   <data name="Ab.Mission.Title"><value>Make accounting simple and clear for every entrepreneur</value></data>
-  <data name="Ab.Vision.Title"><value>FinCore — when finances are in control, business moves forward</value></data>
+  <data name="Ab.Vision.Title"><value>Z.ON — when finances are in control, business moves forward</value></data>
 </root>

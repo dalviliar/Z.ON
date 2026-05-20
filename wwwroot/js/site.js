@@ -1,4 +1,4 @@
-// ===== FINCORE SITE JS =====
+﻿// ===== Z.ON SITE JS =====
 
 document.addEventListener('DOMContentLoaded', function () {
 

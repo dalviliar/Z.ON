@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -27,7 +27,7 @@
   <data name="Hero.Title1"><value>Бухгалтерия</value></data>
   <data name="Hero.Title2"><value>стрессіз</value></data>
   <data name="Hero.Title3"><value>және қатесіз</value></data>
-  <data name="Hero.Sub"><value>Салықтарды, шоттарды және есептілікті автоматтандырыңыз. FinCore өзі есептейді, тексереді және тапсырады — сіз тек бизнесіңізді басқарыңыз.</value></data>
+  <data name="Hero.Sub"><value>Салықтарды, шоттарды және есептілікті автоматтандырыңыз. Z.ON өзі есептейді, тексереді және тапсырады — сіз тек бизнесіңізді басқарыңыз.</value></data>
   <data name="Hero.Start"><value>Тегін бастау</value></data>
   <data name="Hero.Demo"><value>Демо көру</value></data>
   <data name="Hero.Trust"><value><strong>1 200+</strong> компания сенеді</value></data>
@@ -47,25 +47,25 @@
   <data name="Sol.4.Title"><value>Сауда және тамақтандыру</value></data>
   <data name="Sol.4.Desc"><value>Кафелер мен дүкендер үшін сатылым мен салықты автоматтандырыңыз.</value></data>
   <data name="Sol.5.Title"><value>Маркетплейстер</value></data>
-  <data name="Sol.5.Desc"><value>Мыңдаған мердігерлер үшін есеп айырысуды автоматтандыру үшін FinCore-ды интеграциялаңыз.</value></data>
+  <data name="Sol.5.Desc"><value>Мыңдаған мердігерлер үшін есеп айырысуды автоматтандыру үшін Z.ON-ды интеграциялаңыз.</value></data>
   <data name="Sol.6.Title"><value>Банктер мен финтех</value></data>
   <data name="Sol.6.Desc"><value>Бухгалтерлік функцияларды банктік қосымшаларға енгізу үшін API.</value></data>
 
   <data name="Prod.Badge"><value>Өнімдер</value></data>
   <data name="Prod.Title"><value>Масштабталатын құралдармен компанияңызды күшейтіңіз</value></data>
-  <data name="Prod.Pro.Title"><value>FinCore Pro — кәсіби есеп жүйесі</value></data>
+  <data name="Prod.Pro.Title"><value>Z.ON Pro — кәсіби есеп жүйесі</value></data>
   <data name="Prod.Pro.Desc"><value>ШОБ үшін бухгалтерия мен салықты автоматтандырады, НСФО және ҚР СК бойынша есептілік жасайды.</value></data>
   <data name="Prod.More"><value>Толығырақ</value></data>
 
   <data name="Stats.Badge"><value>Жетістіктер</value></data>
-  <data name="Stats.Title"><value>FinCore сандарда</value></data>
+  <data name="Stats.Title"><value>Z.ON сандарда</value></data>
   <data name="Stats.1"><value>компания бізге сенеді</value></data>
   <data name="Stats.2"><value>жүйелермен интеграция</value></data>
   <data name="Stats.3"><value>млн операция 2025 жылы</value></data>
   <data name="Stats.4"><value>жыл FinTech нарығында</value></data>
 
   <data name="Why.Badge"><value>Артықшылықтар</value></data>
-  <data name="Why.Title"><value>Неліктен FinCore таңдайды</value></data>
+  <data name="Why.Title"><value>Неліктен Z.ON таңдайды</value></data>
   <data name="Why.1.Title"><value>Банктік деңгейдегі қауіпсіздік</value></data>
   <data name="Why.1.Desc"><value>Деректерді шифрлау, екі факторлы аутентификация және ҚР заңнамасына сәйкестік.</value></data>
   <data name="Why.2.Title"><value>Жылдамдық — 5 минутта</value></data>
@@ -94,12 +94,12 @@
 
   <data name="Faq.Badge"><value>ЖҚС</value></data>
   <data name="Faq.Title"><value>Жиі қойылатын сұрақтар</value></data>
-  <data name="Faq.Q1"><value>FinCore Pro дегеніміз не?</value></data>
-  <data name="Faq.A1"><value>FinCore Pro — ШОБ үшін кәсіби есеп жүйесі. Бухгалтерлік және салықтық есепті автоматтандырады.</value></data>
+  <data name="Faq.Q1"><value>Z.ON Pro дегеніміз не?</value></data>
+  <data name="Faq.A1"><value>Z.ON Pro — ШОБ үшін кәсіби есеп жүйесі. Бухгалтерлік және салықтық есепті автоматтандырады.</value></data>
   <data name="Faq.Q2"><value>Бухгалтер керек пе?</value></data>
-  <data name="Faq.A2"><value>Жоқ! FinCore есепті өз бетіңізше жүргізуге мүмкіндік береді. Қаласаңыз FinCore AI қосыңыз.</value></data>
+  <data name="Faq.A2"><value>Жоқ! Z.ON есепті өз бетіңізше жүргізуге мүмкіндік береді. Қаласаңыз Z.ON AI қосыңыз.</value></data>
   <data name="Faq.Q3"><value>Қызмет кімге арналған?</value></data>
-  <data name="Faq.A3"><value>FinCore дербес жұмысшыларға, ЖК, ШОБ, маркетплейстер мен банктерге сәйкес.</value></data>
+  <data name="Faq.A3"><value>Z.ON дербес жұмысшыларға, ЖК, ШОБ, маркетплейстер мен банктерге сәйкес.</value></data>
   <data name="Faq.Q4"><value>Демо режим бар ма?</value></data>
   <data name="Faq.A4"><value>Иә! Картасыз 14 күндік тегін кезең. Толық функционал тегін.</value></data>
 
@@ -112,7 +112,7 @@
   <data name="Footer.Solutions"><value>Шешімдер</value></data>
   <data name="Footer.Products"><value>Өнімдер</value></data>
   <data name="Footer.Company"><value>Компания</value></data>
-  <data name="Footer.Rights"><value>© 2026 «FinCore Group» ЖШС. Барлық құқықтар қорғалған.</value></data>
+  <data name="Footer.Rights"><value>© 2026 «Z.ON Group» ЖШС. Барлық құқықтар қорғалған.</value></data>
   <data name="Footer.Privacy"><value>Құпиялылық саясаты</value></data>
   <data name="Footer.Offer"><value>Жария оферта</value></data>
   <data name="Footer.Career"><value>Мансап</value></data>
@@ -128,8 +128,8 @@
   <data name="Cnt.Message"><value>Хабарлама *</value></data>
   <data name="Cnt.Submit"><value>Хабарлама жіберу</value></data>
 
-  <data name="Ab.Title"><value>FinCore — Қазақстандағы бизнес үшін бухгалтерияның цифрлық экожүйесі</value></data>
+  <data name="Ab.Title"><value>Z.ON — Қазақстандағы бизнес үшін бухгалтерияның цифрлық экожүйесі</value></data>
   <data name="Ab.Sub"><value>Біз кәсіпкерлерге қаржыны бақылауда ұстауға және салықтан қорықпауға көмектесеміз.</value></data>
   <data name="Ab.Mission.Title"><value>Бухгалтерияны әр кәсіпкер үшін қарапайым ету</value></data>
-  <data name="Ab.Vision.Title"><value>FinCore — қаржы бақылауда болғанда, бизнес алға жылжиды</value></data>
+  <data name="Ab.Vision.Title"><value>Z.ON — қаржы бақылауда болғанда, бизнес алға жылжиды</value></data>
 </root>

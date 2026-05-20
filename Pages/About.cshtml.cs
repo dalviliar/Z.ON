@@ -1,6 +1,6 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinCoreLanding.Pages;
+namespace Z.ONLanding.Pages;
 
 public class AboutModel : PageModel
 {
